@@ -1,0 +1,105 @@
+
+
+
+/*@keyframes taille {from {width:50px;}to {width:500px}}
+
+div {height:100px;
+width:200px;
+background-color:blue;
+animation-name: taille;
+animation-duration:4s;}*/
+/*
+
+@keyframes taille {
+	0%{width:100px;height:100px;background-color:red}
+	25%{transform:translate(800px,0px);background-color:yellow}
+	50%{transform:translate(800px,600px)rotate(180deg);background-color:green;}
+	75%{transform:translate(0px,600px);background-color:blue;}
+	}
+
+
+
+@-webkit-keyframes taille {
+	0%{width:100px;height:100px;background-color:red}
+	25%{transform:translate(800px,0px);background-color:yellow}
+	50%{transform:translate(800px,600px)rotate(180deg);background-color:green;}
+	75%{transform:translate(0px,600px);background-color:blue;}
+	}
+@-mozi-keyframes taille {
+	0%{width:100px;height:100px;background-color:red}
+	25%{transform:translate(800px,0px);background-color:yellow}
+	50%{transform:translate(800px,600px)rotate(180deg);background-color:green;}
+	75%{transform:translate(0px,600px);background-color:blue;}
+	}
+div {height:100px;
+width:100px;
+background-color:blue;
+
+-webkit-animation-name: taille;
+-moz-animation-name: taille;
+animation-name: taille;
+
+-webkit-animation-duration:8s;
+-moz-animation-duration:8s;
+animation-duration:8s;
+
+-webkit-animation-delay:1s;
+-moz-animation-delay:1s;
+animation-delay:1s;
+
+-webkit-animation-iteration-count:infinite;
+-moz-animation-iteration-count:infinite;
+animation-iteration-count:infinite;
+
+-webkit-animation-fill-mode:backwards;
+-moz-animation-fill-mode:backwards;
+animation-fill-mode:backwards;
+
+animation-timing-function: ease-in-out}
+
+
+@keyframes taille {
+	0%{width:50px;background-color:red;}
+	25%{width:100px;background-color:yellow;}
+	50%{width:150px;background-color:green;}
+	75%{width:200px;background-color:blue;}
+	
+	}
+
+div {height:100px;
+width:200px;
+background-color:blue;
+animation-name: taille;
+animation-duration:4s;}*/
+
+
+@keyframes mymove {from {left: 0px;}to {left: 300px;}
+}
+
+div {
+  width: 100px;
+  height: 50px;
+  background-color: green;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+/*
+ease : début rapide, puis ça accélère, puis ça ralentit à la fin (c’est l’effet par défaut)
+linear : même vitesse du début à la fin
+ease-in : début lent
+ease-out : fin lente
+ease-in-out : début et fin lents*/
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+
+div{background-color:#89b; width:400px; border:5px solid #777; border-radius:15px; box-shadow: 3px 3px 9px orange;}
+.para1, .para2{display:inline;}
+
+span{border: 1px solid black;}
+
+#sp2{display:block;}

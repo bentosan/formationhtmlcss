@@ -1,0 +1,9 @@
+
+#div1{background-color:pink;color:white;border:1px  solid blue ;}
+h1{color:#A7161E;}
+.vert{color:#16A5A7}
+.rouge{color:#A7161E}
+	#div2 h1{border: 1px solid #16A5A7}
+	#div2 p{border: 1px solid #16A5A7}
+	
+ #survol:hover{ background-color:#161CA7 ; color:white}

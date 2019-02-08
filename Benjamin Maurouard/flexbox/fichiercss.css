@@ -1,0 +1,71 @@
+
+
+
+
+
+html,body{height:98%;}
+
+#conteneur{display:flex;width:100%;flex-wrap:wrap;
+height:100%;}
+
+
+#bleu{height:13%;
+        width:100%;
+        background-color:blue;
+        font-size:15px;
+        border-radius:10px;
+        color:white;
+        display:flex;justify-content:center;align-items:center;margin-bottom:0.1%;
+         }
+        
+#jaune{width:29.5%;
+        height:70%;
+        background-color:orange;
+        font-size:20px;
+        border-radius:10px;
+        color:white;
+        margin-right:0.3%;
+        }
+#rose{height:70%;
+        width:70.2%;
+        background-color:pink;
+        font-size:15px;
+        border-radius:10px;
+       
+    
+        }
+#vert{width:100%;
+      height:13%;
+      background-color:green;
+border-radius:10px;
+display:flex;
+justify-content:center;align-items:center;
+margin-top:0.3%;margin-bottom:0.3%}
+
+.legume{border-bottom:1px solid white;margin:0 20px 0 20px;height:5%;margin-top:5px}
+
+
+
+/*
+justify-content
+flex-start : alignés au début (par défaut)
+flex-end : alignés à la fin
+center : alignés au centre
+space-between : les éléments sont étirés sur tout l'axe (il y a de l'espace entre eux)
+space-around : idem, les éléments sont étirés sur tout l'axe, mais ils laissent aussi
+ de l'espace sur les extrémités
+ 
+ Avec align-items , nous pouvons changer leur alignement sur l'axe secondaire. Il peut prendre ces valeurs :
+
+stretch : les éléments sont étirés sur tout l'axe (valeur par défaut)
+flex-start : alignés au début
+flex-end : alignés à la fin
+center : alignés au centre
+baseline : alignés sur la ligne de base (semblable à flex-start
+
+align-self sert a aligner un seul objet indépendament des autres
+
+order:1  sert a modifier l'odre des éléments
+.element1{flex:1}grossir un element
+
+*/ 
